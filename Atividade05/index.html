@@ -2,57 +2,32 @@
 <html>
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade05 - CSS</title>
 
     <style>
 
         body {
-            background-color: #f4f4f4;
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 20px;
+            background-color: lightgray;
         }
 
         h1 {
-            color: darkblue;
-            text-align: center;
+            color: blue;
         }
 
         p {
-            background-color: white;
-            padding: 10px;
-            border-radius: 8px;
-        }
-
-        .minha_classe {
             color: green;
-            font-size: 30px;
-            border: 2px solid black;
-            padding: 10px;
+            font-size: 20px;
         }
 
-        #meu_id {
+        .destaque {
             color: red;
+            border: 1px solid black;
+        }
+
+        #especial {
             background-color: yellow;
-            padding: 10px;
-        }
-
-        a {
-            text-decoration: none;
-            color: blue;
-            font-weight: bold;
-        }
-
-        a:hover {
-            color: red;
-        }
-
-        .caixa {
-            border: 2px solid blue;
-            padding: 15px;
-            margin-top: 10px;
-            background-color: white;
         }
 
     </style>
@@ -61,51 +36,25 @@
 
 <body>
 
-    <h1>Atividade 05 - CSS</h1>
+    <h1>Atividade CSS</h1>
 
     <hr>
-
-    <h2>CSS Inline</h2>
-
-    <p style="color: red; border: 1px solid blue;">
-        Este texto está utilizando CSS Inline.
-    </p>
-
-    <hr>
-
-    <h2>Seletores</h2>
 
     <p>
-        Este parágrafo está utilizando seletor de tag.
+        Este é um exemplo usando seletor de tag.
     </p>
 
-    <hr>
+    <p class="destaque">
+        Este parágrafo usa classe CSS.
+    </p>
 
-    <h2>Classe CSS</h2>
+    <p id="especial">
+        Este parágrafo usa ID CSS.
+    </p>
 
-    <h1 class="minha_classe">
-        Exemplo utilizando classe CSS
-    </h1>
-
-    <hr>
-
-    <h2>ID CSS</h2>
-
-    <div id="meu_id">
-        Este exemplo utiliza seletor ID.
-    </div>
-
-    <hr>
-
-    <h2>Caixa com CSS</h2>
-
-    <div class="caixa">
-
-        <p>
-            Essa caixa possui borda, espaçamento e fundo utilizando CSS.
-        </p>
-
-    </div>
+    <p style="color: purple;">
+        Este texto usa CSS Inline.
+    </p>
 
     <hr>
 
