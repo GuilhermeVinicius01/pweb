@@ -1,0 +1,66 @@
+body{
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.serif{
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.sans{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.mono{
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+.cursive{
+    font-family: "Comic Sans MS", cursive;
+}
+
+
+.fantasy{
+    font-family: Impact, fantasy;
+}
+
+
+.normal{
+    font-style: normal;
+}
+
+
+.italic{
+    font-style: italic;
+}
+
+
+.oblique{
+    font-style: oblique;
+}
+
+
+.px{
+    font-size: 30px;
+}
+
+
+.em{
+    font-size: 2em;
+}
+
+.conteudo{
+    background-color: white;
+    padding: 20px;
+
+    font-size: 16px;
+}
