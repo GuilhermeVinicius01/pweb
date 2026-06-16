@@ -1,0 +1,42 @@
+/* ========== ESTILOS DO BODY ========== */
+body {
+    background: #61bd8c;
+}
+
+/* ========== ESTILOS DO CONTEÚDO ========== */
+#conteudo {
+    background: #FFFFFF;
+    padding: 10px;
+    width: 900px;
+    margin: 30px auto;  /* Centraliza horizontalmente */
+}
+
+/* ========== CLASSE CAIXA ========== */
+.caixa {
+    background: red;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ========== POSICIONAMENTOS ========== */
+#relativo {
+    position: relative;
+    left: 30px;
+}
+
+#absoluto {
+    position: absolute;
+    left: 30px;
+}
+
+#fixo {
+    position: fixed;
+    left: 200px;
+    top: 0px;
+}
