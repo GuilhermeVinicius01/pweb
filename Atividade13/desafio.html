@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio CSS3</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: white;
+      margin: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 70px;
+      margin-top: 20px;
+    }
+
+    /* FLOR */
+    .flor {
+      width: 240px;
+      height: 240px;
+      display: grid;
+      grid-template-columns: 120px 120px;
+      grid-template-rows: 120px 120px;
+    }
+
+    .petala {
+      width: 120px;
+      height: 120px;
+    }
+
+    .p1 {
+      background: red;
+      border-radius: 60% 60% 0 60%;
+    }
+
+    .p2 {
+      background: orange;
+      border-radius: 60% 60% 60% 0;
+    }
+
+    .p3 {
+      background: green;
+      border-radius: 60% 0 60% 60%;
+    }
+
+    .p4 {
+      background: purple;
+      border-radius: 0 60% 60% 60%;
+    }
+
+    /* CÍRCULO */
+    .circulo {
+      width: 240px;
+      height: 240px;
+      display: grid;
+      grid-template-columns: 120px 120px;
+      grid-template-rows: 120px 120px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .parte {
+      width: 120px;
+      height: 120px;
+    }
+
+    .vermelha { background: red; }
+    .amarela { background: orange; }
+    .verde { background: green; }
+    .roxa { background: purple; }
+  </style>
+</head>
+<body>
+
+  <h1>Desafio CSS3</h1>
+
+  <div class="container">
+    <div class="flor">
+      <div class="petala p1"></div>
+      <div class="petala p2"></div>
+      <div class="petala p3"></div>
+      <div class="petala p4"></div>
+    </div>
+
+    <div class="circulo">
+      <div class="parte vermelha"></div>
+      <div class="parte amarela"></div>
+      <div class="parte verde"></div>
+      <div class="parte roxa"></div>
+    </div>
+  </div>
+
+  <a href="index.html">Voltar</a>
+
+</body>
+</html>
