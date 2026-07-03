@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade - Atributo Data</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function mostraValor(elemento) {
+            let nome = elemento.innerText;
+            let idade = elemento.getAttribute("data-idade");
+
+            alert("Nome: " + nome + "\nIdade: " + idade);
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Lista de Pessoas</h1>
+
+    <ul>
+        <li class="pessoa" data-idade="20" data-cpf="123.456.789-00" onclick="mostraValor(this)">
+            João
+        </li>
+
+        <li class="pessoa" data-idade="30" data-cpf="987.654.321-00" onclick="mostraValor(this)">
+            Maria
+        </li>
+
+        <li class="pessoa" data-idade="25" data-cpf="456.123.789-10" onclick="mostraValor(this)">
+            Carlos
+        </li>
+
+        <li class="pessoa" data-idade="30" data-cpf="111.222.333-44" onclick="mostraValor(this)">
+            Ana
+        </li>
+    </ul>
+
+</body>
+</html>
