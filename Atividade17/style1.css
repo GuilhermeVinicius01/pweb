@@ -1,0 +1,12 @@
+.coluna {
+    background-color: #87CEEB;
+    border: 2px solid black; 
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container-galeria {
+    max-width: 1200px;
+}
