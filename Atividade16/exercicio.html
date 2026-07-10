@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - Menu Responsivo</title>
+    <style>
+        /* --- ESTILOS PADRÃO (MOBILE FIRST / SENÃO) --- */
+        /* Quando a tela for menor ou igual a 600px, o menu se comporta como uma lista vertical comum (padrão) */
+        ul {
+            list-style-type: disc; /* Mantém os pontinhos pretos da lista visíveis como na imagem */
+            padding-left: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* --- MEDIA QUERY (MUDANÇA DE COMPORTAMENTO) --- */
+        /* Se a largura da tela for maior que 600px */
+        @media screen and (min-width: 601px) {
+            ul {
+                list-style-type: none; /* Remove os pontinhos pretos */
+                padding: 0;
+                display: flex;         /* Alinha os itens lado a lado na horizontal */
+                justify-content: flex-end; /* Empurra o menu para o lado direito da tela, como na imagem */
+                gap: 15px;             /* Cria um espaçamento elegante entre os menus */
+            }
+            
+            li {
+                margin-bottom: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li>Menu 01</li>
+        <li>Menu 02</li>
+        <li>Menu 03</li>
+        <li>Menu 04</li>
+        <li>Menu 05</li>
+    </ul>
+
+</body>
+</html>
