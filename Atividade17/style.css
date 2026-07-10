@@ -1,0 +1,9 @@
+.container-galeria {
+    max-width: 1200px;
+}
+
+.img-galeria {
+    width: 100%;
+    border-radius: 4px;
+    display: block;
+}
